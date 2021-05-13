@@ -1,5 +1,19 @@
 body {
     background-color: #f7f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 900px;
+    margin: auto;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    color: #505050;
 }
 
 #title, .sub_title, .post_title {
@@ -18,13 +32,31 @@ body {
     padding: 10px;
     border: 3px solid #505050;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 .post_content, .img_post{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
-#minha_foto, .post {
-    border-radius: 20px;
+.img_post {
+    width: 100%;
+}
+
+#minha_foto {
+    border-radius: 50%;
+    border: 1px solid #505050;
+    
+}
+
+.list {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 10px;
+}
+
+a:hover {
+    color: blue;
 }
